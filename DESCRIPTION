@@ -1,0 +1,14 @@
+Package: bouts
+Type: Package
+Title: Determines number and characteristics of torpor bouts
+Version: 0.1.0
+Author: Thomas Ruf
+Maintainer: Thomas Ruf <Thomas.Ruf@vetmeduni.ac.at>
+Description: computes number, length and depth of torpor bouts in hibernation.
+    Reads ibutton data with body temperature. Requires threshold for torpor bouts.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 3.50)
