@@ -14,7 +14,7 @@ countbouts()
 
 Select an iButton file on your hard disk.Always store iButton files as csv fies. Use comma (",") as separator between columns. As examples, you find two files in the bouts directory inst/extdata. They are are called M65C6.csv and TempAct_ID66.csv. They are an original iButton file and a FIWI-made logger file. Choose either one.You should see a plot. Select the first and last point for all computations. If recorded, activity of the animals is also shown.
 
-To alter the computation, change the last line in "countbouts()". For example to
+To alter the computation, change the last line in "countbouts()". For example, do
 
  bcounts(selected,name,thresh=25, min_torpid=24, min_wake=24,t_res=1)
 
