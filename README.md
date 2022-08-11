@@ -3,14 +3,14 @@ Compute torpor characteristics R package
 
 R package to compute duration and other specifications of bouts of torpor, alternating with euthermia. First install R from CRAN, next install RStudio. Subsequently install bouts in R. Goto RStudio Console and write: 
 
-install.packages("devtools")
-library(devtools)
-install_github("thomaspruf/bouts")
+install.packages("devtools")<br />
+library(devtools)<br />
+install_github("thomaspruf/bouts")<br />
 
 You need to install only once. Then and in the future run it:
 
-library(bouts)
-countbouts()
+library(bouts)<br />
+countbouts()<br />
 
 Select an iButton file on your hard disk. Always store iButton files as csv files. Use comma (",") as separator between columns. As examples, you find two files in the bouts directory inst/extdata. They are are called M65C6.csv and TempAct_ID66.csv. They are an original iButton file and a FIWI-made logger file. Choose either one.You should see a plot. Select the first and last point for all computations. If recorded, activity of the animals is also shown.
 
