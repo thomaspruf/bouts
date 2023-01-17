@@ -12,7 +12,7 @@ You need to install only once. Then and in the future run it:
 library(bouts)<br />
 countbouts()<br />
 
-Select an iButton file on your hard disk. Always store iButton files as csv files. Use comma (",") as separator between columns. As examples, you find files in the bouts directory inst/extdata. The original file are called ...txt the moified files are .csv. They are an original iButton file and a FIWI-made logger file. The csv files are also in the sub directoty data. When you start you should see a plot. Select the first and last point for all computations. If recorded, activity of the animals is also shown.
+Select an iButton file on your hard disk. Always store iButton files as csv files. Use comma (",") as separator between columns. As examples, you find files in the bouts directory inst/extdata. The original files are called .txt the moified files are .csv. They are an original iButton file and a FIWI-made logger file. The csv files are also in the sub directory data. When you start you should see a plot. Select the first and last point for all computations. If recorded, activity of the animals is also shown.
 
 To alter the computation, change the last line in "countbouts()". For example, do
 
