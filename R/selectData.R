@@ -1,10 +1,10 @@
 selectData=function(){
 
   name=file.choose()
-  hib=read_ib(name)
+  hib=read_butt(name)
 
 
-  plot(hib$Hours,hib$Temp,type="l",xlab="Hours",ylab="Body Temperature C",main="Mark beginning and end (two points) with mouse",cex.main=2)
+  plot(hib$Hours,hib$Temp,type="l",xlab="Hours",ylab="Body Temperature C",main="Mark beginning and end (two points) with left mouse clicks",cex.main=1.5)
 
   sel=identify(hib$Hours,hib$Temp,n=2,pos=T)
 

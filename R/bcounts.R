@@ -1,5 +1,6 @@
 bcounts=function(data, name="exm",thresh=25, min_torpid=NULL, min_wake=NULL,t_res=5){
 
+
 hib=data
 
 fac=mean(diff(hib$Hours),na.rm=T)*60/t_res #t_res is temporal resolution in minutes
@@ -164,3 +165,5 @@ res=rbind(res    ,c('Sum ','--','--',sto,'--','--','--',sar,'--','--'))
 print (res)
 invisible(res)
 }
+
+
