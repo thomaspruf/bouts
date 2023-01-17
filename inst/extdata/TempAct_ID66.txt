@@ -1,4 +1,4 @@
-Id,Date.Time,RawTemp,Temperature,RawAct,Activity
+Id,Date,RawTemp,Temperature,RawAct,Activity
 66,2021-09-29 06:03:00,376,23.11,0,0
 66,2021-09-29 06:13:00,377,23.17,0,0
 66,2021-09-29 06:23:00,376,23.11,0,0
