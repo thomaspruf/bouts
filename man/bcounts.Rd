@@ -8,7 +8,7 @@ Bout counts
 Determines torpor bout characteristics
 }
 \usage{
-bcounts(data, name = "exm", thresh = 28, min_torpid = NULL, min_wake = NULL, t_res = 5)
+bcounts(data, name = "exm", thresh = 25, min_torpid = NULL, min_wake = NULL, t_res = 5)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -53,11 +53,13 @@ Thomas Ruf
 \examples{
 
 
-rawdata=system.file("extdata","M65C6.csv",package="bouts") #Hibernation, no activity
-hib=read_ib(rawdata)
-bcounts(hib,"Example")
 
-rawdata=system.file("extdata","TempAct_ID66.csv",package="bouts") #Torpor, with activity
-hib=read_ib(rawdata)
+name=system.file("extdata","M65.csv",package="bouts") #Hibernation, no activity
+hib=read_butt(name)
+bcounts(hib)
+
+name=system.file("extdata","TempAct_ID66.csv",package="bouts") #Torpor, with activity
+hib=read_butt(name)
 bcounts(hib,"Example")
 }
+
