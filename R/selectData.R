@@ -13,6 +13,12 @@ selectData=function ()
   abline(v = hib$Hours[last], col = "red")
   Sys.sleep(0.5)
   hib = hib[first:last, ]
+  
+  yy=substr(hib$tme,1,4)
+  z1=as.POSIXct(paste(yy,"-01-01 00:00:00",sep=""),tz="CET")         
+  z2=as.POSIXct(hib$tme)
+  hib$Hours=difftime(z2,z1,units="hours")
+  
   plot(hib$Hours, hib$Temp, type = "l", xlab = "Hours", ylab = "Body Temperature C")
   selout = list(data = hib, name = name)
   return(selout)
