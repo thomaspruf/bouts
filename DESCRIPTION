@@ -1,7 +1,7 @@
 Package: bouts
 Type: Package
 Title: Determines number and characteristics of torpor bouts
-Version: 0.2.0
+Version: 0.3.0
 Author: Thomas Ruf
 Maintainer: Thomas Ruf <Thomas.P.Ruf@me.com>
 Description: computes number, length and depth of torpor bouts in hibernation.
